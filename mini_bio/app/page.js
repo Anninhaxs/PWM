@@ -1,11 +1,17 @@
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#E2D5F1]">
-      <main className="bg-[#f3ecfa] p-10 rounded-xl shadow-md text-center max-w-md">
+      <main className="bg-[#f3ecfa] p-10 rounded-xl shadow-md text-center max-w-xl">
 
+        <img
+        src="/foto.jpeg"
+        alt="Foto de Anna Beatriz"
+        className="w-32 h-32 rounded-full object-cover mx-auto mb-4 border-4 border-[#E2D5F1]"
+        />
         <h1 className="text-purple-800 text-3xl font-bold mb-4">
           Anna Beatriz
         </h1>
+        
 
         <p className="text-gray-600 mb-4">
           Como visto acima, me chamo Anna Beatriz! Atualmente curso Ciência da Computação, tenho 21 anos e venho gostando bastante do curso,
