@@ -1,0 +1,29 @@
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3ecfa;
+}
+
+.quadrado {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.links a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
