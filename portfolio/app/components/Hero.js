@@ -24,13 +24,10 @@ export default function Hero() {
 
       {/* Botões */}
       <div className="flex flex-col sm:flex-row gap-6">
-        <button className="bg-purple-600 hover:bg-purple-700 text-white px-10 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(147,51,234,0.3)]">
+        <a href="#projects" className="bg-purple-600 hover:bg-purple-700 text-white px-10 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(147,51,234,0.3)] text-center">
           View My Work
-        </button>
-        <button className="border border-gray-600 hover:border-purple-500 hover:text-purple-400 text-white px-10 py-4 rounded-full font-semibold transition-all">
-          Get in Touch
-        </button>
-      </div>
+          </a>
+       </div>
     </section>
   );
 }
